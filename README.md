@@ -9,8 +9,9 @@
 
 This repository contains the code examples from the book
 
+
 ## See a mistake?
-If you see any issues please create an issue on [the issue tracker](https://github.com/aloctavodia/BAP3/issues)
+If you see any issues not listed on the [Errata](errata.md) please create an issue on [the issue tracker](https://github.com/aloctavodia/BAP3/issues)
 
 ## Environment installation
 To run the code you will need to install the correct packages in a computational environment.
@@ -24,7 +25,7 @@ conda activate bap3
 
 ### pip
 ```
-pip install pymc==5.8.0 arviz==0.16.1 bambi==0.13.0 pymc-bart==0.5.2 kulprit==0.0.1 preliz[full,notebook]==0.3.6 nutpie==0.9.1
+pip install pymc==5.8.0 arviz==0.16.1 bambi==0.13.0 pymc-bart==0.5.2 kulprit==0.0.1 'preliz[full,notebook]==0.3.6' nutpie==0.9.1
 ```
 
 ### Citation
